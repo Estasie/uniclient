@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Acad</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="mainPage">
+        <header class="header">
+            <nav class="navigation">
+                <ul>
+                    <li><a href="#">О ВУЗе</a></li>
+                    <li><a href="#">Контакты</a></li>
+                    <li><a href="#">Перейти на сайт филиала</a></li>
+                    <li><a href="#">Перейти на сайт головного ВУЗа</a></li>
+                </ul>
+    
+                <hr>
+            </nav>
+            
+        </header>
+        <article class="art1">
+            <section class="main">
+                <h3>Информационно - образовательная среда</h3>
+                <h1>Длинное название одного хорошего ВУЗА</h1>
+                <h3>Вдруг у него есть филиалы</h3>
+                <div class="buttons">
+                    <input type="button" value="Вход для студентов" class="main_menu_buttons firstOne">
+                    <input type="button" value="Вход для преподавателей" class="main_menu_buttons secondOne">
+                </div>
+            </section>
+            <aside class="asideBar">
+                <div class="leftContainer">
+                    <h6>Перейти на сайт института</h6>
+                    <h2>Финальные сроки подачи документов</h2>
+                    <a href="#"><img src="imgs/arrow.svg" alt="arrow" class="arrow"></a>
+                    <div class="dotSlider">
+                        <a href="#"><img src="imgs/dot.svg" alt=""></a>
+                        <a href="#"><img src="imgs/dot.svg" alt=""></a>
+                        <a href="#"><img src="imgs/dot.svg" alt=""></a>
+                    </div>
+                    
+                </div>
+                <div class="imgContainer">
+                    <a href="#"><img src="imgs/classPicture.png" alt="arrow"></a>
+                </div>
+            </aside>
+        </article>
+    
+    </div>
+
+    <div class="logInPage hidden">
+        <section class="logInside">
+            <a href="#" class="back"><p>&#706 Назад</p></a>
+
+            <h1><b>Длинное название одного ВУЗа</b> и вдруг его филиала</h1>
+            <h3>Информационно - образовательная среда</h3>
+
+            <div class="enterButtons">
+                <a href="#" id="students">Вход для студентов</a>
+                <a href="#" id="professors">Вход для преподавателей</a>
+            </div>
+            
+
+            <form action="POST" class="logInForm">
+                <label for="login">Логин
+                    <input required type="text" name="login">
+                </label>
+                <label for="password">Пароль
+                    <input required type="password" name="password" class="passwordField">
+                    <!-- <input type="button" class="show_hide"><img src="imgs/eye-off.svg" alt=""> -->
+                </label>
+                
+                <a href="#">Забыли пароль?</a>
+                <div class="logInButton">
+                    <input type="button" value="ВОЙТИ" class="logInButton">
+                </div>
+                
+            </form>
+
+            <a href="#" class="linkToTheUni">Перейти на сайт ВУЗа</a>
+        </section>
+    </div>
+   
+    <script src="script.js"></script>
+</body>
+</html>
